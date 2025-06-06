@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24557D9B180F2265004DAD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557D9A180F2265004DAD76 /* Foundation.framework */; };
+		24557D9D180F2265004DAD76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557D9C180F2265004DAD76 /* CoreGraphics.framework */; };
+		24557D9F180F2265004DAD76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557D9E180F2265004DAD76 /* UIKit.framework */; };
+		24557DA5180F2265004DAD76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24557DA3180F2265004DAD76 /* InfoPlist.strings */; };
+		24557DA7180F2265004DAD76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24557DA6180F2265004DAD76 /* main.m */; };
+		24557DAB180F2265004DAD76 /* OKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24557DAA180F2265004DAD76 /* OKAppDelegate.m */; };
+		24557DAE180F2265004DAD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24557DAC180F2265004DAD76 /* Main.storyboard */; };
+		24557DB1180F2265004DAD76 /* OKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24557DB0180F2265004DAD76 /* OKViewController.m */; };
+		24557DB3180F2265004DAD76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24557DB2180F2265004DAD76 /* Images.xcassets */; };
+		24557DBA180F2265004DAD76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557DB9180F2265004DAD76 /* XCTest.framework */; };
+		24557DBB180F2265004DAD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557D9A180F2265004DAD76 /* Foundation.framework */; };
+		24557DBC180F2265004DAD76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557D9E180F2265004DAD76 /* UIKit.framework */; };
+		24557DC4180F2266004DAD76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24557DC2180F2266004DAD76 /* InfoPlist.strings */; };
+		24557DC6180F2266004DAD76 /* AirChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24557DC5180F2266004DAD76 /* AirChatTests.m */; };
+		24557DD1180F2458004DAD76 /* 714-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DCF180F2458004DAD76 /* 714-camera.png */; };
+		24557DD2180F2458004DAD76 /* 714-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DD0180F2458004DAD76 /* 714-camera@2x.png */; };
+		24557DD4180FCBAD004DAD76 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557DD3180FCBAD004DAD76 /* QuartzCore.framework */; };
+		24557DD91812C405004DAD76 /* OKStrokedUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24557DD81812C405004DAD76 /* OKStrokedUILabel.m */; };
+		24557DDE1812C7F3004DAD76 /* chatBubbleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DDA1812C7F3004DAD76 /* chatBubbleBlue.png */; };
+		24557DDF1812C7F3004DAD76 /* chatBubbleBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DDB1812C7F3004DAD76 /* chatBubbleBlue@2x.png */; };
+		24557DE01812C7F3004DAD76 /* chatBubbleGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DDC1812C7F3004DAD76 /* chatBubbleGray.png */; };
+		24557DE11812C7F3004DAD76 /* chatBubbleGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DDD1812C7F3004DAD76 /* chatBubbleGray@2x.png */; };
+		24557DE51812DAA0004DAD76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24557DE41812DAA0004DAD76 /* CFNetwork.framework */; };
+		24557DEA1813F3F5004DAD76 /* OKPersonActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 24557DE91813F3F5004DAD76 /* OKPersonActivity.m */; };
+		24557DF11813F782004DAD76 /* 768-female.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DED1813F782004DAD76 /* 768-female.png */; };
+		24557DF21813F782004DAD76 /* 768-female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DEE1813F782004DAD76 /* 768-female@2x.png */; };
+		24557DF31813F782004DAD76 /* 769-male.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DEF1813F782004DAD76 /* 769-male.png */; };
+		24557DF41813F782004DAD76 /* 769-male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24557DF01813F782004DAD76 /* 769-male@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24557DBD180F2266004DAD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24557D8F180F2265004DAD76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24557D96180F2265004DAD76;
+			remoteInfo = AirChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24557D97180F2265004DAD76 /* AirChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24557D9A180F2265004DAD76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24557D9C180F2265004DAD76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24557D9E180F2265004DAD76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24557DA2180F2265004DAD76 /* AirChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirChat-Info.plist"; sourceTree = "<group>"; };
+		24557DA4180F2265004DAD76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24557DA6180F2265004DAD76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24557DA8180F2265004DAD76 /* AirChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirChat-Prefix.pch"; sourceTree = "<group>"; };
+		24557DA9180F2265004DAD76 /* OKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKAppDelegate.h; sourceTree = "<group>"; };
+		24557DAA180F2265004DAD76 /* OKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKAppDelegate.m; sourceTree = "<group>"; };
+		24557DAD180F2265004DAD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24557DAF180F2265004DAD76 /* OKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKViewController.h; sourceTree = "<group>"; };
+		24557DB0180F2265004DAD76 /* OKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKViewController.m; sourceTree = "<group>"; };
+		24557DB2180F2265004DAD76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24557DB8180F2265004DAD76 /* AirChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24557DB9180F2265004DAD76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24557DC1180F2266004DAD76 /* AirChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirChatTests-Info.plist"; sourceTree = "<group>"; };
+		24557DC3180F2266004DAD76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24557DC5180F2266004DAD76 /* AirChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirChatTests.m; sourceTree = "<group>"; };
+		24557DCF180F2458004DAD76 /* 714-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "714-camera.png"; sourceTree = "<group>"; };
+		24557DD0180F2458004DAD76 /* 714-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "714-camera@2x.png"; sourceTree = "<group>"; };
+		24557DD3180FCBAD004DAD76 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		24557DD71812C405004DAD76 /* OKStrokedUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKStrokedUILabel.h; sourceTree = "<group>"; };
+		24557DD81812C405004DAD76 /* OKStrokedUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKStrokedUILabel.m; sourceTree = "<group>"; };
+		24557DDA1812C7F3004DAD76 /* chatBubbleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBubbleBlue.png; sourceTree = "<group>"; };
+		24557DDB1812C7F3004DAD76 /* chatBubbleBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBubbleBlue@2x.png"; sourceTree = "<group>"; };
+		24557DDC1812C7F3004DAD76 /* chatBubbleGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBubbleGray.png; sourceTree = "<group>"; };
+		24557DDD1812C7F3004DAD76 /* chatBubbleGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBubbleGray@2x.png"; sourceTree = "<group>"; };
+		24557DE41812DAA0004DAD76 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		24557DE81813F3F5004DAD76 /* OKPersonActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKPersonActivity.h; sourceTree = "<group>"; };
+		24557DE91813F3F5004DAD76 /* OKPersonActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKPersonActivity.m; sourceTree = "<group>"; };
+		24557DED1813F782004DAD76 /* 768-female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "768-female.png"; sourceTree = "<group>"; };
+		24557DEE1813F782004DAD76 /* 768-female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "768-female@2x.png"; sourceTree = "<group>"; };
+		24557DEF1813F782004DAD76 /* 769-male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "769-male.png"; sourceTree = "<group>"; };
+		24557DF01813F782004DAD76 /* 769-male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "769-male@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24557D94180F2265004DAD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24557DE51812DAA0004DAD76 /* CFNetwork.framework in Frameworks */,
+				24557DD4180FCBAD004DAD76 /* QuartzCore.framework in Frameworks */,
+				24557D9D180F2265004DAD76 /* CoreGraphics.framework in Frameworks */,
+				24557D9F180F2265004DAD76 /* UIKit.framework in Frameworks */,
+				24557D9B180F2265004DAD76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24557DB5180F2265004DAD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24557DBA180F2265004DAD76 /* XCTest.framework in Frameworks */,
+				24557DBC180F2265004DAD76 /* UIKit.framework in Frameworks */,
+				24557DBB180F2265004DAD76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24557D8E180F2265004DAD76 = {
+			isa = PBXGroup;
+			children = (
+				24557DA0180F2265004DAD76 /* AirChat */,
+				24557DBF180F2266004DAD76 /* AirChatTests */,
+				24557D99180F2265004DAD76 /* Frameworks */,
+				24557D98180F2265004DAD76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24557D98180F2265004DAD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24557D97180F2265004DAD76 /* AirChat.app */,
+				24557DB8180F2265004DAD76 /* AirChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24557D99180F2265004DAD76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24557DE41812DAA0004DAD76 /* CFNetwork.framework */,
+				24557DD3180FCBAD004DAD76 /* QuartzCore.framework */,
+				24557D9A180F2265004DAD76 /* Foundation.framework */,
+				24557D9C180F2265004DAD76 /* CoreGraphics.framework */,
+				24557D9E180F2265004DAD76 /* UIKit.framework */,
+				24557DB9180F2265004DAD76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24557DA0180F2265004DAD76 /* AirChat */ = {
+			isa = PBXGroup;
+			children = (
+				24557DA9180F2265004DAD76 /* OKAppDelegate.h */,
+				24557DAA180F2265004DAD76 /* OKAppDelegate.m */,
+				24557DAC180F2265004DAD76 /* Main.storyboard */,
+				24557DAF180F2265004DAD76 /* OKViewController.h */,
+				24557DB0180F2265004DAD76 /* OKViewController.m */,
+				24557DE81813F3F5004DAD76 /* OKPersonActivity.h */,
+				24557DE91813F3F5004DAD76 /* OKPersonActivity.m */,
+				24557DD71812C405004DAD76 /* OKStrokedUILabel.h */,
+				24557DD81812C405004DAD76 /* OKStrokedUILabel.m */,
+				24557DB2180F2265004DAD76 /* Images.xcassets */,
+				24557DCF180F2458004DAD76 /* 714-camera.png */,
+				24557DD0180F2458004DAD76 /* 714-camera@2x.png */,
+				24557DDA1812C7F3004DAD76 /* chatBubbleBlue.png */,
+				24557DDB1812C7F3004DAD76 /* chatBubbleBlue@2x.png */,
+				24557DDC1812C7F3004DAD76 /* chatBubbleGray.png */,
+				24557DDD1812C7F3004DAD76 /* chatBubbleGray@2x.png */,
+				24557DED1813F782004DAD76 /* 768-female.png */,
+				24557DEE1813F782004DAD76 /* 768-female@2x.png */,
+				24557DEF1813F782004DAD76 /* 769-male.png */,
+				24557DF01813F782004DAD76 /* 769-male@2x.png */,
+				24557DA1180F2265004DAD76 /* Supporting Files */,
+			);
+			path = AirChat;
+			sourceTree = "<group>";
+		};
+		24557DA1180F2265004DAD76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24557DA2180F2265004DAD76 /* AirChat-Info.plist */,
+				24557DA3180F2265004DAD76 /* InfoPlist.strings */,
+				24557DA6180F2265004DAD76 /* main.m */,
+				24557DA8180F2265004DAD76 /* AirChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24557DBF180F2266004DAD76 /* AirChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				24557DC5180F2266004DAD76 /* AirChatTests.m */,
+				24557DC0180F2266004DAD76 /* Supporting Files */,
+			);
+			path = AirChatTests;
+			sourceTree = "<group>";
+		};
+		24557DC0180F2266004DAD76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24557DC1180F2266004DAD76 /* AirChatTests-Info.plist */,
+				24557DC2180F2266004DAD76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24557D96180F2265004DAD76 /* AirChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24557DC9180F2266004DAD76 /* Build configuration list for PBXNativeTarget "AirChat" */;
+			buildPhases = (
+				24557D93180F2265004DAD76 /* Sources */,
+				24557D94180F2265004DAD76 /* Frameworks */,
+				24557D95180F2265004DAD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirChat;
+			productName = AirChat;
+			productReference = 24557D97180F2265004DAD76 /* AirChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24557DB7180F2265004DAD76 /* AirChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24557DCC180F2266004DAD76 /* Build configuration list for PBXNativeTarget "AirChatTests" */;
+			buildPhases = (
+				24557DB4180F2265004DAD76 /* Sources */,
+				24557DB5180F2265004DAD76 /* Frameworks */,
+				24557DB6180F2265004DAD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24557DBE180F2266004DAD76 /* PBXTargetDependency */,
+			);
+			name = AirChatTests;
+			productName = AirChatTests;
+			productReference = 24557DB8180F2265004DAD76 /* AirChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24557D8F180F2265004DAD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Okaris;
+				TargetAttributes = {
+					24557DB7180F2265004DAD76 = {
+						TestTargetID = 24557D96180F2265004DAD76;
+					};
+				};
+			};
+			buildConfigurationList = 24557D92180F2265004DAD76 /* Build configuration list for PBXProject "AirChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24557D8E180F2265004DAD76;
+			productRefGroup = 24557D98180F2265004DAD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24557D96180F2265004DAD76 /* AirChat */,
+				24557DB7180F2265004DAD76 /* AirChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24557D95180F2265004DAD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24557DF41813F782004DAD76 /* 769-male@2x.png in Resources */,
+				24557DD2180F2458004DAD76 /* 714-camera@2x.png in Resources */,
+				24557DF31813F782004DAD76 /* 769-male.png in Resources */,
+				24557DDE1812C7F3004DAD76 /* chatBubbleBlue.png in Resources */,
+				24557DF11813F782004DAD76 /* 768-female.png in Resources */,
+				24557DDF1812C7F3004DAD76 /* chatBubbleBlue@2x.png in Resources */,
+				24557DB3180F2265004DAD76 /* Images.xcassets in Resources */,
+				24557DF21813F782004DAD76 /* 768-female@2x.png in Resources */,
+				24557DE11812C7F3004DAD76 /* chatBubbleGray@2x.png in Resources */,
+				24557DE01812C7F3004DAD76 /* chatBubbleGray.png in Resources */,
+				24557DA5180F2265004DAD76 /* InfoPlist.strings in Resources */,
+				24557DAE180F2265004DAD76 /* Main.storyboard in Resources */,
+				24557DD1180F2458004DAD76 /* 714-camera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24557DB6180F2265004DAD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24557DC4180F2266004DAD76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24557D93180F2265004DAD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24557DAB180F2265004DAD76 /* OKAppDelegate.m in Sources */,
+				24557DD91812C405004DAD76 /* OKStrokedUILabel.m in Sources */,
+				24557DEA1813F3F5004DAD76 /* OKPersonActivity.m in Sources */,
+				24557DA7180F2265004DAD76 /* main.m in Sources */,
+				24557DB1180F2265004DAD76 /* OKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24557DB4180F2265004DAD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24557DC6180F2266004DAD76 /* AirChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24557DBE180F2266004DAD76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24557D96180F2265004DAD76 /* AirChat */;
+			targetProxy = 24557DBD180F2266004DAD76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24557DA3180F2265004DAD76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24557DA4180F2265004DAD76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24557DAC180F2265004DAD76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24557DAD180F2265004DAD76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24557DC2180F2266004DAD76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24557DC3180F2266004DAD76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24557DC7180F2266004DAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24557DC8180F2266004DAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24557DCA180F2266004DAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/okaris-mbp/Desktop/AirChat",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChat/AirChat-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "527DE509-E9E0-4070-9DD1-FD53167AA4A2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24557DCB180F2266004DAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/okaris-mbp/Desktop/AirChat",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChat/AirChat-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "527DE509-E9E0-4070-9DD1-FD53167AA4A2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24557DCD180F2266004DAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirChat.app/AirChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirChatTests/AirChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24557DCE180F2266004DAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirChat.app/AirChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirChat/AirChat-Prefix.pch";
+				INFOPLIST_FILE = "AirChatTests/AirChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24557D92180F2265004DAD76 /* Build configuration list for PBXProject "AirChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24557DC7180F2266004DAD76 /* Debug */,
+				24557DC8180F2266004DAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24557DC9180F2266004DAD76 /* Build configuration list for PBXNativeTarget "AirChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24557DCA180F2266004DAD76 /* Debug */,
+				24557DCB180F2266004DAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24557DCC180F2266004DAD76 /* Build configuration list for PBXNativeTarget "AirChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24557DCD180F2266004DAD76 /* Debug */,
+				24557DCE180F2266004DAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24557D8F180F2265004DAD76 /* Project object */;
+}
