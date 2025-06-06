@@ -14,7 +14,7 @@ a peer-to-peer chat app built in 2013 using airdrop, before it was cool — and 
 
 ## what is this
 
-airchat was a simple ios app i built in 2013 that let people chat directly using airdrop. no servers, no signups, just devices talking to each other. it worked. it was fun. it got rejected.
+airchat was a simple ios app i built in 2013 that let people chat directly using airdrop. no servers, no signups, just devices talking to each other. it worked. it was fun. it got rejected. it merely created chat bubble images or overlaid text on any image to let you send it with airdrop.
 
 ## the story
 
